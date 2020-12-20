@@ -80,7 +80,7 @@ You can see from my comment that by pre-initializing pygame.mixer, we can lessen
 - 44100 is the sample rate (or frequency in pygame)
 - -16 is the bit depth (or size in pygame)
 - 2 is the number of channels (in this case, stereo, but you can also set this to 1 for mono) 
-- 2048 is the buffer size
+- 512 is the buffer size
 
 The [pygame mixer documentation](https://www.pygame.org/docs/ref/mixer.html) explains: 
 
